@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head><!-----------------------------------------------------------------HEAD BEGIN---------------------------------------------------------------------------->
+
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------------------------- Bootstrap CSS File START---------------->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <!-- --------------------------Bootstrap CSS File END----------------->
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="/Images/Favicon/Fav2.png">
+    <title>Todo List</title>
+
+</head><!------------------------------------------------------------------HEAD END----------------------------------------------------------------------------->
+
+
+
+<body class="index"> <!---------------------------------------------------BODY BEGIN---------------------------------------------------------------------------->
+
+  <!--HEADER BEGIN-->
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+      <div class="container justify-content-center">
+        <h3 class="header-h3 justify-content-center">My Todo List</h3>
+      </div>
+    </nav>
+  <!--HEADER END-->
+
+  <!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="container">
+
+        <div id="myDIV" class="header">
+            <br>
+            <input type="text" id="myInput" placeholder="Enter Task" class="form-control justify-content-center">
+            <br>
+            <button onclick="newElement()" class="addBtn btn btn-dark">CLICK TO ADD</button>
+            <br>
+            <br>
+            <br>
+        </div>
+        <ul id="ulist" type="circle">
+
+        </ul>
+
+    </div>
+
+
+  <!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!----------------------------------------------------------------------SCRIPTS--------------------------------------------------------------------------------->
+
+  <script src="JS/api.js"></script>
+  
+  <!--------------------------------------------------------------- Font Awesome JS File START-->
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <!--------------------------------------------------------------- Font Awesome JS File END-->
+
+  <!--------------------------------------------------------------- Bootstrap JS File START-->
+  <script src="Bootstrap/js/jquery.slim.min.js"></script>
+  <script src="Bootstrap/js/popper.min.js"></script>
+  <script src="Bootstrap/js/bootstrap.js"></script>
+  <!--------------------------------------------------------------- Bootstrap JS File END---->
+
+
+</body> <!---------------------------------------------------------------BODY END----------------------------------------------------------------------------->
+
+
+
+</html>

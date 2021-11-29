@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head><!-----------------------------------------------------------------HEAD BEGIN---------------------------------------------------------------------------->
+
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------------------------- Bootstrap CSS File START---------------->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <!-- --------------------------Bootstrap CSS File END----------------->
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="/Images/Favicon/Fav2.png">
+    <title>My Todo App</title>
+
+</head><!------------------------------------------------------------------HEAD END----------------------------------------------------------------------------->
+
+
+
+<body class="index"> <!---------------------------------------------------BODY BEGIN---------------------------------------------------------------------------->
+
+  <!--HEADER BEGIN-->
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+      <div class="container justify-content-center">
+        <h3 class="header-h3 justify-content-center">My Todo List</h3>
+      </div>
+    </nav>
+  <!--HEADER END-->
+
+  <!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <div class="container login-form">
+    <div class="logo"><img src="IMAGES/Login Form Icon/icon6.png" alt=""></div>
+    <br>
+    <h6>Sign In</h6>
+
+    <form action="">
+      <div class="textbox">
+        <input type="text" id="usernameInput" placeholder="Username Or Email">
+        <span class="check-message hidden">Required</span>
+      </div>
+      <div class="textbox">
+        <input type="password" id="pass" placeholder="Password">
+        <span class="check-message hidden">Required</span>
+      </div>
+      <div class="textbox">
+        <span for="error" id="error"></span>
+      </div>
+      <input type="submit" onclick="return validate(test)" value="LOG IN" class="login-btn">
+    </form>
+  </div>
+  <!----------------------------------------------------------------------SCRIPTS--------------------------------------------------------------------------------->
+
+  <script src="JS/form.js"></script>
+  
+  <!--------------------------------------------------------------- Font Awesome JS File START-->
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <!--------------------------------------------------------------- Font Awesome JS File END-->
+
+  <!--------------------------------------------------------------- Bootstrap JS File START-->
+  <script src="Bootstrap/js/jquery.slim.min.js"></script>
+  <script src="Bootstrap/js/popper.min.js"></script>
+  <script src="Bootstrap/js/bootstrap.js"></script>
+  <!--------------------------------------------------------------- Bootstrap JS File END---->
+
+
+</body> <!---------------------------------------------------------------BODY END----------------------------------------------------------------------------->
+
+
+
+</html>
